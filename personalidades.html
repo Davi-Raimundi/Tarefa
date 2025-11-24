@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Consciência Negra — Personalidades e Contribuições</title>
+  <meta name="description" content="Mini-biografias de personalidades negras que contribuíram nas artes, ciência, política e esporte.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="container">
+    <a class="skip-link" href="#main">Pular para o conteúdo</a>
+    <header class="site-header" role="banner">
+      <div class="brand">
+        <img src="assets/icons/logo.svg" alt="Logotipo Consciência Negra" width="48" height="48">
+        <h1>Consciência Negra</h1>
+      </div>
+      <nav aria-label="Navegação principal">
+        <button id="btn-theme-2" aria-pressed="false" aria-label="Alternar tema">🌓</button>
+        <ul class="main-nav">
+          <li><a href="index.html">História</a></li>
+          <li><a href="personalidades.html" aria-current="page">Personalidades</a></li>
+          <li><a href="acoes.html">Desafios & Ações</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" role="main">
+      <section class="intro" aria-labelledby="intro-title">
+        <h2 id="intro-title">Personalidades e Contribuições</h2>
+        <p>Figuras que marcaram e marcam a história nas artes, ciência, política e esportes.</p>
+      </section>
+
+      <section class="filter" aria-labelledby="filter-title">
+        <h3 id="filter-title">Filtrar por área</h3>
+        <div class="filter-controls">
+          <label>
+            <input type="radio" name="area" value="all" checked> Todas
+          </label>
+          <label>
+            <input type="radio" name="area" value="artes"> Artes
+          </label>
+          <label>
+            <input type="radio" name="area" value="ciencia"> Ciência
+          </label>
+          <label>
+            <input type="radio" name="area" value="politica"> Política
+          </label>
+          <label>
+            <input type="radio" name="area" value="esporte"> Esporte
+          </label>
+        </div>
+      </section>
+
+      <section class="gallery" aria-labelledby="gallery-title">
+        <h3 id="gallery-title">Personalidades</h3>
+        <div class="cards" id="people-list">
+          <article class="person card" data-area="artes" tabindex="0">
+            <img src="assets/images/maria-educadora.svg" alt="Ilustração representando Maria, artista negra" loading="lazy" width="300" height="180">
+            <h4 id="artes">Maria (Artes)</h4>
+            <p>Artista plástica e educadora que promove oficinas de arte comunitária.</p>
+            <a class="btn" href="#" aria-label="Saiba mais sobre Maria">Saiba mais</a>
+          </article>
+
+          <article class="person card" data-area="ciencia" tabindex="0">
+            <img src="assets/images/cientista.svg" alt="Ilustração de cientista negra em laboratório" loading="lazy" width="300" height="180">
+            <h4>João (Ciência)</h4>
+            <p>Pesquisador que atua em saúde pública com foco em populações afrodescendentes.</p>
+            <a class="btn" href="#" aria-label="Saiba mais sobre João">Saiba mais</a>
+          </article>
+
+          <article class="person card" data-area="politica" tabindex="0">
+            <img src="assets/images/politico.svg" alt="Ilustração de político negro discurando" loading="lazy" width="300" height="180">
+            <h4>Fatima (Política)</h4>
+            <p>Liderança em políticas públicas e promoção de igualdade racial.</p>
+            <a class="btn" href="#" aria-label="Saiba mais sobre Fatima">Saiba mais</a>
+          </article>
+
+          <article class="person card" data-area="esporte" tabindex="0">
+            <img src="assets/images/esporte.svg" alt="Ilustração de atleta negra comemorando" loading="lazy" width="300" height="180">
+            <h4>Carlos (Esporte)</h4>
+            <p>Atleta olímpico que também coordena programas sociais para jovens.</p>
+            <a class="btn" href="#" aria-label="Saiba mais sobre Carlos">Saiba mais</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer role="contentinfo" class="site-footer">
+      <p>Feito para fins educacionais • Créditos: ilustrações próprias (MIT) • Fontes: IBGE, UNESCO.</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
